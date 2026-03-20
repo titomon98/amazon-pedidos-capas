@@ -7,9 +7,3 @@ export enum Status {
     ENVIADO = 5,
     PERDIDO = 6
 }
-
-export enum SpecialStatus {
-    PARA_EL_JEFE = 101,
-    CONVIVIO = 102,
-    CUMPLE = 103
-}

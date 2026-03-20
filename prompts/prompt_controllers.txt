@@ -1,0 +1,21 @@
+Listo, quisiera ahora la capa de controllers y como ya empezaria a funcionar en POSTMAN? 
+
+Tengo lo siguiente en mi app.module.ts 
+
+import { Module } from '@nestjs/common';
+
+@Module({
+  imports: []
+})
+export class AppModule {}
+Y esto en mi main.ts
+
+import { NestFactory } from '@nestjs/core';
+import { AppModule } from './app.module';
+
+async function bootstrap() {
+  const app = await NestFactory.create(AppModule);
+  await app.listen(process.env.PORT ?? 3000);
+}
+bootstrap();
+Adaptalos al codigo que ya realice.

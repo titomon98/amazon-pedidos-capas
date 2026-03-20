@@ -23,7 +23,7 @@ export class Pedido {
 
     @Column({
         type: 'decimal',
-        precision: 2,
+        precision: 10,
         scale: 2,
         default: 0.0
     })

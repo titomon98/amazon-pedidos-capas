@@ -1,0 +1,3 @@
+Hice cambios en el detalle-pedido.repository.ts y elimine el metodo calcularSubtotalPorPedido ya que no quiero consultas en crudo. No vuelvas a generarla.
+
+Ahora quiero que me ayudes a hacer la capa de servicios para cada repositorio.
